@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\Dropbox\\Webbutveckling 1\\Gymnasiearbete"
+		},
+		{
+			"path": "..\\public"
+		},
+		{
+			"path": "..\\scripts"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
