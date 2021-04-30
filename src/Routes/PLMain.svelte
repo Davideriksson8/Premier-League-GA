@@ -24,10 +24,36 @@ import Tabell from "./Tabellen.svelte"
 
     <section class="informationpl">
     
-    
 
-      <iframe title="news" src="https://www.expressen.se/tagg/organization/premier-league/" frameborder="0"></iframe>
-      <!--https://www.facebook.com/sportbladet/posts/1015842246https://www.aftonbladet.se/tagg/premier-league0264613-->
+
+      <div class="iframe">
+
+        <div class="imgsbl"></div>
+        <a class="sblogo" href="https://www.aftonbladet.se/tagg/premier-league"><img class="sblogo" src="https://gfx.aftonbladet-cdn.se/hyper-assets/1de50b9ac3ce6d421c32572b3d250e99.jpg" alt="Sport Bladet logo"></a> 
+        
+        
+        <div class="inf1">
+          <img src="bildgasb2.jpg" alt="Bild" class="sbbild">
+          <div class="sbinfo"> I dag släcker de sina sociala medier
+          <a class="länksb" href="https://www.aftonbladet.se/sportbladet/fotboll/a/pA87bw/i-dag-slacker-de-sina-sociala-medier">Läs mer här.</a>
+        </div></div>
+
+        <div class="inf2">
+          <img class="sbbild" src="BildGASB.jpg" alt="Bild">
+        <div class="sbinfo"> Uppgifter: Ville ta över Arsenal redan innan Super League
+        <a class="länksb" href="https://www.aftonbladet.se/sportbladet/fotboll/a/41kaWe/uppgifter-ville-ta-over-arsenal-innan-super-league-planerna">Läs mer här.</a>
+        </div></div>
+
+        <div class="inf3">
+          <img class="sbbild" src="sportbladet1.jpg" alt="Bild">
+         <div class="sbinfo">Panel: "Megastjärnan hade passat perfekt i Liverpools offensiv"
+         <a class="länksb" href="https://www.aftonbladet.se/sportbladet/fotboll/a/dlEEoj/liverpool-panelen-salah-out--och-har-ar-dromvarvningarna">Läs mer här.</a> 
+        </div></div>
+
+      </div>
+
+     <!--<iframe title="news" src="https://www.aftonbladet.se/tagg/premier-league0264613" frameborder="0"></iframe>--> 
+
     </section>
     
     <aside class="mästerskapslista">
@@ -134,11 +160,86 @@ import Tabell from "./Tabellen.svelte"
     grid-column-end: 4;
   }
   
-  iframe {
+  .iframe {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     height: 400px;
     margin-top: 80px;
-    
+    background-color: #fde3e6;
   }
+
+  .imgsbl {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    background-color: #a11014;
+  }
+
+  .sblogo {    
+    width: 200px;
+    height: 100px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    justify-self: center;
+  }
+
+  a.sblogo {
+    border-top: 3px solid #a11014;
+  }
+
+  img.sbbild {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 150px;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .inf1 {
+    grid-row-start: 2;
+    grid-row-end: 3;   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #a11014;
+    height: 100px; 
+  }
+
+  .inf2 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #a11014;
+    height: 100px; 
+  }
+
+  .inf3 {    
+    grid-row-start: 4;
+    grid-row-end: 5; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #a11014;
+    height: 100px;   
+  }
+
+  div.sbinfo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+  }
+
+  a.länksb {
+    font-size: 15px;
+    justify-self: end;
+  }
+
+
   
   aside.mästerskapslista {
     grid-column-start: 3;
@@ -184,10 +285,6 @@ import Tabell from "./Tabellen.svelte"
     grid-row-start: 2;
   }
   
-  iframe {
-    height: 550px;
-    margin-top: 80px;
-  }
 
   }
 
