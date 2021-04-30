@@ -102,7 +102,7 @@
 <style>
 
 * {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     
 }
