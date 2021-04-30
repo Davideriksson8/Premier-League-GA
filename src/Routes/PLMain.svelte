@@ -26,8 +26,8 @@ import Tabell from "./Tabellen.svelte"
     
     
 
-      <iframe title="news" src="https://www.aftonbladet.se/tagg/premier-league" frameborder="0"></iframe>
-      
+      <iframe title="news" src="https://www.expressen.se/tagg/organization/premier-league/" frameborder="0"></iframe>
+      <!--https://www.facebook.com/sportbladet/posts/1015842246https://www.aftonbladet.se/tagg/premier-league0264613-->
     </section>
     
     <aside class="mästerskapslista">
