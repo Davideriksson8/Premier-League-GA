@@ -109,7 +109,7 @@ import Tabell from "./Tabellen.svelte"
   h1.tabell {
     margin-top: 80px; 
     height: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
   }
   
@@ -122,7 +122,7 @@ import Tabell from "./Tabellen.svelte"
   
   .premierleaguerubrik {
     height: 45px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 60px;
     /*font-family: 'Roboto', sans-serif;*/
   }
@@ -154,7 +154,7 @@ import Tabell from "./Tabellen.svelte"
   .vinnarerubrik {
     margin-top: 80px; 
     height: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     
   }
