@@ -111,7 +111,7 @@ import Link from 'svelte-routing/src/Link.svelte';
   
   
   {#if !sidmeny.listaIn}
-  <img alt="menyknapp" src="menyn.jpg" id="meny" class="fas fa-bars" on:click={toggle}>
+  <i alt="menyknapp" src="menyn.jpg" id="meny" class="fas fa-bars" on:click={toggle}></i>
   {/if}
 
  <!--<script>-->
@@ -184,8 +184,8 @@ import Link from 'svelte-routing/src/Link.svelte';
   .fas {
     margin-left: 20px;
     margin-right: 20px;
-    width: 40px;
-    height: 40px;
+    margin-top: 30px;
+    font-size: 40px;
     color: #fff;
     cursor: pointer;
   }
