@@ -237,6 +237,7 @@ import Tabell from "./Tabellen.svelte"
   a.länksb {
     font-size: 15px;
     justify-self: end;
+    text-decoration: underline;
   }
 
 
@@ -291,7 +292,7 @@ import Tabell from "./Tabellen.svelte"
 
 
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 740px) {
     aside.mästerskapslista {
       grid-row-start: 4;
       grid-column-start: 1;
@@ -307,9 +308,53 @@ import Tabell from "./Tabellen.svelte"
   }
  
 
-  
-  
  
+ 
+  }
+
+  @media screen and (max-width: 400px) {
+    .iframe {
+      width: 300px;
+      height: 530px;
+    }
+
+  img.sbbild {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 140px;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .inf1 {
+    grid-row-start: 2;
+    grid-row-end: 3;   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #a11014;
+    height: 100px; 
+  }
+
+  .inf2 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #a11014;
+    height: 150px; 
+  }
+
+  .inf3 {    
+    grid-row-start: 4;
+    grid-row-end: 5; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #a11014;
+    height: 180px;   
+  }
+
+  
+
   }
 
   </style>
