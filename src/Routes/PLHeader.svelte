@@ -111,7 +111,7 @@ import Link from 'svelte-routing/src/Link.svelte';
   
   
   {#if !sidmeny.listaIn}
-  <i alt="menyknapp" src="menyn.jpg" id="meny" class="fas fa-bars" on:click={toggle}></i>
+  <span alt="menyknapp" src="menyn.jpg" id="meny" class="fas fa-bars" on:click={toggle}></span>
   {/if}
 
  <!--<script>-->
@@ -189,7 +189,6 @@ import Link from 'svelte-routing/src/Link.svelte';
     width: 40px;
     font-size: 40px;
     color: #fff;
-    background-color: #fff;
     cursor: pointer;
   }
 
