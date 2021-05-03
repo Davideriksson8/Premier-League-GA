@@ -185,6 +185,8 @@ import Link from 'svelte-routing/src/Link.svelte';
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 30px;
+    height: 40px;
+    width: 40px;
     font-size: 40px;
     color: #fff;
     cursor: pointer;
