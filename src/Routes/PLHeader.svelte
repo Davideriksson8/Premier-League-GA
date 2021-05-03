@@ -188,8 +188,10 @@ import Link from 'svelte-routing/src/Link.svelte';
     height: 40px;
     width: 40px;
     font-size: 40px;
-    color: #fff;
+    color: black;
+    background-color: white;
     cursor: pointer;
+    text-align: center;
   }
 
   p {
