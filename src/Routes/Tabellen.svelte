@@ -104,13 +104,17 @@
 * {
     font-size: 17px;
     color: white;
-    
 }
 
 td {
     padding: 0 7px;
     border-right: solid 1px white;
     border-bottom: solid 1px white;
+    text-align: center;
+}
+
+td.lag {
+    text-align: unset;
 }
 
 

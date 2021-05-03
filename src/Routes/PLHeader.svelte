@@ -84,7 +84,8 @@ import Link from 'svelte-routing/src/Link.svelte';
     
   {#if sidmeny.listaIn}
     <nav class="mymeny">
-      <button class="nerkryssning" on:click={toggle}>x</button>
+      <div class="nerkryssning" on:click={toggle}>x</div>
+      <div class="menytext">
      <!-- <li class="punkt1 p">
         Rekord
       </li>-->
@@ -104,7 +105,7 @@ import Link from 'svelte-routing/src/Link.svelte';
         <p>Lag</p>
         </Link>
       </li>
-
+      </div>
     </nav>
   {/if}
   
@@ -182,47 +183,57 @@ import Link from 'svelte-routing/src/Link.svelte';
   
   
   .fas {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 30px;
+    margin: 30px 20px 0 20px;
     height: 40px;
     width: 40px;
     font-size: 40px;
-    color: black;
-    background-color: white;
+    color: white;
+    
     cursor: pointer;
     text-align: center;
   }
 
   p {
     color: white;
-    text-decoration: underline;
+    
   }
 
   nav.mymeny {
     display: flex;
     flex-direction: row;
-    background-color: rgb(0, 0, 0);
+    background-color: #3F1052;
     height: 100px;
     margin-right: 10px;
-   
+    border-right: 1px solid white
   }
 
-  button.nerkryssning {
+  div.menytext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  div.nerkryssning {
     cursor: pointer;
-    font-size: 30px;
+    font-size: 40px;
     height: 50px;
     width: 40px;
+    margin-left: 10px;
+    color: #fff;
   }
 
-  nav li {
-    color: white;
-  }
+  
   
   li.p {
     margin: 10px;
-    font-size: 20px;
-    
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+  }
+
+  p:hover {
+    text-decoration: underline;
+   text-decoration-color: #fff;
   }
 
     
