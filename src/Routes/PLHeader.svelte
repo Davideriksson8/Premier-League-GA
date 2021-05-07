@@ -84,7 +84,7 @@ import Link from 'svelte-routing/src/Link.svelte';
     
   {#if sidmeny.listaIn}
     <nav class="mymeny">
-      <div class="nerkryssning" on:click={toggle}>x</div>
+      <div class="nerkryssning" on:click={toggle}>X</div>
       <div class="menytext">
      <!-- <li class="punkt1 p">
         Rekord
@@ -112,7 +112,8 @@ import Link from 'svelte-routing/src/Link.svelte';
   
   
   {#if !sidmeny.listaIn}
-  <span alt="menyknapp" src="menyn.jpg" id="meny" class="fas fa-bars" on:click={toggle}></span>
+  <img alt="menyknapp" src="menyn.jpg" id="meny" class="fas fa-bars" on:click={toggle}>
+
   {/if}
 
  <!--<script>-->
