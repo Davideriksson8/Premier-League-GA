@@ -84,7 +84,7 @@ import Link from 'svelte-routing/src/Link.svelte';
     
   {#if sidmeny.listaIn}
     <nav class="mymeny">
-      <div class="nerkryssning" on:click={toggle}>X</div>
+      <div class="nerkryssning" on:click={toggle}>x</div>
       <div class="menytext">
      <!-- <li class="punkt1 p">
         Rekord
@@ -185,8 +185,8 @@ import Link from 'svelte-routing/src/Link.svelte';
   
   .fas {
     margin: 30px 20px 0 20px;
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 80px;
     font-size: 40px;
     color: white;
     
