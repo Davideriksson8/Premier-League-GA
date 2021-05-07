@@ -41,7 +41,7 @@
 
 
 <div class="knapp">
-<button on:click={arse}><img alt="Arsenal" class=" logo" src="https://cdn.glitch.com/7d5ea8d6-5674-46fb-b0f1-196915dca9a4%2F1f019f9e-d6af-4b50-9168-a094a5166130.image.png?v=1600869415819">
+<button class="knappupp" on:click={arse}><img alt="Arsenal" class=" logo" src="https://cdn.glitch.com/7d5ea8d6-5674-46fb-b0f1-196915dca9a4%2F1f019f9e-d6af-4b50-9168-a094a5166130.image.png?v=1600869415819">
 </button>
 
 <button on:click={vil}><img alt="Villa" class=" logo" src="https://cdn.glitch.com/7d5ea8d6-5674-46fb-b0f1-196915dca9a4%2F55b14ad6-200f-42a6-9b87-6cbf3f0a91e1.image.png?v=1600869447962">
@@ -99,13 +99,13 @@
 <button on:click={wes}><img alt="Westham" class=" logo" src="https://cdn.glitch.com/7d5ea8d6-5674-46fb-b0f1-196915dca9a4%2Fde2a81f5-7212-4bf4-a0a7-6a266b66d73b.image.png?v=1600869562614">
 </button>
 
-<button on:click={wol}><img alt="Wolves" class=" logo" src="https://cdn.glitch.com/7d5ea8d6-5674-46fb-b0f1-196915dca9a4%2F1bbd26f3-fb26-4e8e-b27c-aeafe8390691.image.png?v=1600869565070">
+<button class="knappner" on:click={wol}><img alt="Wolves" class=" logo" src="https://cdn.glitch.com/7d5ea8d6-5674-46fb-b0f1-196915dca9a4%2F1bbd26f3-fb26-4e8e-b27c-aeafe8390691.image.png?v=1600869565070">
 </button>
 </div>
   
   
 <svg width="600" height="600">
-	<rect x="0" y="0" width="600" height="600" fill="#3F1052"/>
+	<rect x="0" y="0" width="600" height="600" fill="#37003c"/>
 	
 	
 	<polyline class="lag" id="line" points={Liverpool} stroke-width="3" stroke="#a91c30"fill="transparent"/> 
@@ -201,6 +201,7 @@
 		grid-column-end: 2;
 		grid-row-start: 2;
 		margin-right: 5px;
+		font-weight: 600;
 	}
 
 	div.plats {
@@ -218,6 +219,7 @@
 		grid-row-start: 3;
 		flex-direction: row;
 		gap: 12px;
+		font-weight: 600;
 	}
 
 	svg {
@@ -238,10 +240,22 @@
 
 	button {
 		height: 30px;
+		border: none;
+		border-right: 1px solid white;
+		outline: none;
+		background: #9123bd;
+		padding: 3px 3px;
 		
 	
 	}
 
+	button.knappupp {
+		border-top: 1px solid white;
+	}
+
+	button.knappner {
+		border-bottom: 1px solid white;
+	}
 
 
 </style>
@@ -484,7 +498,7 @@ let linje7 = [300,0, 300,600]
 let linje8 = [350,0, 350,600]
 let linje9 = [400,0, 400,600]
 let linje10 = [450,0, 450,600]
-let linje11 = [599,0, 599,600]
+let linje11 = [600,0, 600,600]
 let linje12 = [0,0, 600,0]
 let linje13  = [0,600, 600,600]
 let linje14  = [0,38, 600,38]
