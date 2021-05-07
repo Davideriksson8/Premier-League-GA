@@ -147,17 +147,16 @@ import Tabell from "./Tabellen.svelte"
   }
   
   .premierleaguerubrik {
-    height: 45px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 60px;
-    /*font-family: 'Roboto', sans-serif;*/
+   font-family: 'Roboto', sans-serif;
+    /* font-family: 'Open Sans', sans-serif;*/
   }
   
   h1.pl {
-    font-size: 2.5em;
+    font-size: 3em;
     justify-self: center;
     grid-column-start: 1;
     grid-column-end: 4;
+    margin: 20px auto 0;
   }
   
   .iframe {
@@ -167,6 +166,7 @@ import Tabell from "./Tabellen.svelte"
     height: 400px;
     margin-top: 80px;
     background-color: #fde3e6;
+    box-shadow: 0 0 20px rgba(0,0,0.3);
   }
 
   .imgsbl {
