@@ -123,7 +123,7 @@ ol.tabell {
 }
 
 tr:nth-child(odd) {
-    background-color: #3F1052;
+    background-color: #37003c;
 
 } 
 

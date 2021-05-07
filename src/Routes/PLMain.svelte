@@ -187,6 +187,7 @@ import Tabell from "./Tabellen.svelte"
 
   a.sblogo {
     border-top: 3px solid #a11014;
+    box-shadow: 0 0 20px rgba(0,0,0.3);
   }
 
   img.sbbild {

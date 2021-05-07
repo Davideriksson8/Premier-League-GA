@@ -79,7 +79,7 @@ import Link from 'svelte-routing/src/Link.svelte';
 
   <section class="Menysök">
 
-    <Link to="/"><img class="PLLOGGA" src="https://assets.turbologo.com/blog/en/2020/01/19084653/Premier-League-symbol.png" alt="PL Loga"></Link>
+    <Link to="/"><img class="PLLOGGA" src="Premier-League-symbol.png" alt="PL Loga"></Link>
 
     
   {#if sidmeny.listaIn}
@@ -201,7 +201,7 @@ import Link from 'svelte-routing/src/Link.svelte';
   nav.mymeny {
     display: flex;
     flex-direction: row;
-    background-color: #3F1052;
+    background-color: #37003c;
     height: 100px;
     margin-right: 10px;
     border-right: 1px solid white
@@ -244,7 +244,7 @@ import Link from 'svelte-routing/src/Link.svelte';
     background: white;
     outline: none;
     padding: 7px 10px;
-    border-color: #3F1052;
+    border-color: #37003c;
     height: 40px;
     margin-top: 30px;
   }
@@ -267,7 +267,7 @@ import Link from 'svelte-routing/src/Link.svelte';
     }
       
     section.Menysök {
-     background-color: #3F1052;
+     background-color: #37003c;
       height: 100px;
               
     }
