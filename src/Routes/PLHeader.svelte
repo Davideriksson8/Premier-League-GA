@@ -184,7 +184,7 @@ import Link from 'svelte-routing/src/Link.svelte';
   
   
   .fas {
-    margin: 0 20px 0 20px;
+    margin: 10px 20px 0 20px;
     height: 80px;
     width: 80px;
     font-size: 40px;
