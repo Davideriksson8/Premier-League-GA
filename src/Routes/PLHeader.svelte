@@ -261,6 +261,10 @@ import Link from 'svelte-routing/src/Link.svelte';
         display: none;
       }
     }
+
+    nav.mymeny {
+      border-left: 1px solid white;
+    }
       
     section.Menysök {
      background-color: #3F1052;
