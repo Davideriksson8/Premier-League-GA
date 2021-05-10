@@ -181,6 +181,8 @@ import Tabell from "./Tabellen.svelte"
     grid-row-end: 2;
     grid-column-start: 1;
     justify-self: center;
+    height: 105px;
+    width: 200px;
   }
 
   a.sblogo {
@@ -193,6 +195,8 @@ import Tabell from "./Tabellen.svelte"
     grid-column-end: 2;
     align-self: center;
     justify-self: center;
+    height: 79px;
+    width: 150px;
   }
 
   .inf1 {
