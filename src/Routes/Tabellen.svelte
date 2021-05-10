@@ -5,7 +5,7 @@
 
 
 
-<ol class="tabell">
+<li class="tabell">
     
 <table class="tabell">
 <tr>
@@ -96,7 +96,7 @@
 
 
 </table>	
-</ol>
+</li>
 
 
 <style>
@@ -118,7 +118,7 @@ td.lag {
 }
 
 
-ol.tabell {
+li.tabell {
     justify-self: center;
 }
 

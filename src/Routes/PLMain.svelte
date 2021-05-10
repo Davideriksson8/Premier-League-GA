@@ -33,19 +33,19 @@ import Tabell from "./Tabellen.svelte"
         
         
         <div class="inf1">
-          <img src="inf1.jpg" alt="Bild" class="sbbild">
+          <img src="Bild1.jpg" alt="Bild" class="sbbild">
           <div class="sbinfo"> I dag släcker de sina sociala medier
           <a class="länksb" href="https://www.aftonbladet.se/sportbladet/fotboll/a/pA87bw/i-dag-slacker-de-sina-sociala-medier">Läs mer här.</a>
         </div></div>
 
         <div class="inf2">
-          <img class="sbbild" src="inf2.jpg" alt="Bild">
+          <img class="sbbild" src="Bild2.jpg" alt="Bild">
         <div class="sbinfo"> Uppgifter: Ville ta över Arsenal redan innan Super League
         <a class="länksb" href="https://www.aftonbladet.se/sportbladet/fotboll/a/41kaWe/uppgifter-ville-ta-over-arsenal-innan-super-league-planerna">Läs mer här.</a>
         </div></div>
 
         <div class="inf3">
-          <img class="sbbild" src="inf3.jpg" alt="Bild">
+          <img class="sbbild" src="Bild3.jpg" alt="Bild">
          <div class="sbinfo">Panel: "Megastjärnan hade passat perfekt i Liverpools offensiv"
          <a class="länksb" href="https://www.aftonbladet.se/sportbladet/fotboll/a/dlEEoj/liverpool-panelen-salah-out--och-har-ar-dromvarvningarna">Läs mer här.</a> 
         </div></div>
