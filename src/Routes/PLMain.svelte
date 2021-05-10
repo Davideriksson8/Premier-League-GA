@@ -29,23 +29,23 @@ import Tabell from "./Tabellen.svelte"
       <div class="iframe">
 
         <div class="imgsbl"></div>
-        <a class="sblogo" href="https://www.aftonbladet.se/tagg/premier-league"><img class="sblogo" src="https://gfx.aftonbladet-cdn.se/hyper-assets/1de50b9ac3ce6d421c32572b3d250e99.jpg" alt="Sport Bladet logo"></a> 
+        <a class="sblogo" href="https://www.aftonbladet.se/tagg/premier-league"><img class="sblogo" src="Aftobladetbild.jpg" alt="Sport Bladet logo"></a> 
         
         
         <div class="inf1">
-          <img src="bildgasb2.jpg" alt="Bild" class="sbbild">
+          <img src="inf1.jpg" alt="Bild" class="sbbild">
           <div class="sbinfo"> I dag släcker de sina sociala medier
           <a class="länksb" href="https://www.aftonbladet.se/sportbladet/fotboll/a/pA87bw/i-dag-slacker-de-sina-sociala-medier">Läs mer här.</a>
         </div></div>
 
         <div class="inf2">
-          <img class="sbbild" src="BildGASB.jpg" alt="Bild">
+          <img class="sbbild" src="inf2.jpg" alt="Bild">
         <div class="sbinfo"> Uppgifter: Ville ta över Arsenal redan innan Super League
         <a class="länksb" href="https://www.aftonbladet.se/sportbladet/fotboll/a/41kaWe/uppgifter-ville-ta-over-arsenal-innan-super-league-planerna">Läs mer här.</a>
         </div></div>
 
         <div class="inf3">
-          <img class="sbbild" src="sportbladet1.jpg" alt="Bild">
+          <img class="sbbild" src="inf3.jpg" alt="Bild">
          <div class="sbinfo">Panel: "Megastjärnan hade passat perfekt i Liverpools offensiv"
          <a class="länksb" href="https://www.aftonbladet.se/sportbladet/fotboll/a/dlEEoj/liverpool-panelen-salah-out--och-har-ar-dromvarvningarna">Läs mer här.</a> 
         </div></div>
@@ -163,7 +163,7 @@ import Tabell from "./Tabellen.svelte"
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    height: 400px;
+    height: 410px;
     margin-top: 80px;
     background-color: #fde3e6;
     box-shadow: 0 0 20px rgba(0,0,0.3);
@@ -177,8 +177,6 @@ import Tabell from "./Tabellen.svelte"
   }
 
   .sblogo {    
-    width: 200px;
-    height: 100px;
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -193,7 +191,6 @@ import Tabell from "./Tabellen.svelte"
   img.sbbild {
     grid-column-start: 1;
     grid-column-end: 2;
-    width: 150px;
     align-self: center;
     justify-self: center;
   }
