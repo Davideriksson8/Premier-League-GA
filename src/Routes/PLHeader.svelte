@@ -276,6 +276,7 @@ import Link from 'svelte-routing/src/Link.svelte';
    img.PLLOGGA {
       background-color: white;
       height: 60px;
+      width: 102px;
       margin-top: 20px;
       margin-right: 10px;
     }

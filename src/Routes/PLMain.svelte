@@ -152,7 +152,7 @@ import Tabell from "./Tabellen.svelte"
   }
   
   h1.pl {
-    font-size: 3em;
+    font-size: 2.7em;
     justify-self: center;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -163,7 +163,7 @@ import Tabell from "./Tabellen.svelte"
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    height: 410px;
+    height: 400px;
     margin-top: 80px;
     background-color: #fde3e6;
     box-shadow: 0 0 20px rgba(0,0,0.3);
