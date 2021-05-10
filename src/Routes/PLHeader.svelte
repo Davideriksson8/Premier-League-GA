@@ -79,7 +79,7 @@ import Link from 'svelte-routing/src/Link.svelte';
 
   <section class="Menysök">
 
-    <Link to="/"><img class="PLLOGGA" src="Premier-League-symbol.png" alt="PL Loga"></Link>
+    <Link to="/"><img class="PLLOGGA" src="Premier-League-symbol-2.png" alt="PL Loga"></Link>
 
     
   {#if sidmeny.listaIn}
