@@ -24,7 +24,7 @@ import Link from 'svelte-routing/src/Link.svelte';
     
     <section class="plloga">
 			
-    <Link to="/">  <img class="pl" alt="PL" src="https://cdn.glitch.com/7d5ea8d6-5674-46fb-b0f1-196915dca9a4%2Fe77ec073-a557-4529-92fb-515aa59ead4f.image.png?v=1600869350663"></Link>
+    <Link to="/">  <img class="pl" alt="PL" src="plheaderloga.png"></Link>
    
 		
 		
