@@ -52,7 +52,7 @@ import Tabell from "./Tabellen.svelte"
 
       </div>
 
-     <!--<iframe title="news" src="https://www.aftonbladet.se/tagg/premier-league0264613" frameborder="0"></iframe>--> 
+     
 
     </section>
     
