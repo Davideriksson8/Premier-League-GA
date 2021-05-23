@@ -31,7 +31,7 @@
             <img src="https://www.thenationalnews.com/image/policy:1.906316:1567597962/sp05-Man-City-Trophy-Tour.jpg?f=16x9&w=1200&$p$f$w=56de256" alt="Mancity Champions Wall">
     
             <div>
-                6 Ligasegrar: </div> <div>1936/37, 1967/68, 2011/12, 2013/14, 2017/18, 2018/19</div> 
+                7 Ligasegrar: </div> <div>1936/37, 1967/68, 2011/12, 2013/14, 2017/18, 2018/19, 2020/21</div> 
     
             <div>
                 6 FA-cuper: </div> <div>1903/04, 1933/34, 1955/56, 1968/69, 2010/11, 2018/19</div>

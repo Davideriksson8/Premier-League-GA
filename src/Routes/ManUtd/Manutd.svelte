@@ -30,26 +30,26 @@
                 <h2>Skytteligan:</h2>
                     <div>
                         <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p141746.png" alt="Spelare 1">
-                        <h3>24 Mål</h3>
+                        <h3>28 Mål</h3>
                     </div>
                     <div>
                         <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p176297.png" alt="Spelare 2">
-                        <h3>20 Mål</h3>
+                        <h3>21 Mål</h3>
                     </div>
                     <div>
                         <img src="https://bet-bet.net/wp-content/uploads/2020/10/Edinson-Cavani.png" alt="spelare 3">
-                        <h3>8 Mål</h3>
+                        <h3>16 Mål</h3>
                     </div>
             </div>
             <div class="assist">
                 <h2>Assistligan:</h2>
                     <div class="A1">
                         <img class="A1" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p141746.png" alt="Spelare 1">
-                        <h3>14 Assist</h3>
+                        <h3>18 Assist</h3>
                     </div>
                     <div class="A2">
                         <img class="A2" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p176297.png" alt="Spelare 2">
-                        <h3>10 Assist</h3>
+                        <h3>12 Assist</h3>
                     </div>
                     <div class="A3">
                         <img class="A3" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p106760.png" alt="spelare 3">

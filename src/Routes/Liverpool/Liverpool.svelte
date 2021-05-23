@@ -30,30 +30,30 @@ import Liverpoolheader from "./Liverpoolheader.svelte";
             <h2>Skytteligan:</h2>
                 <div>
                     <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p118748.png" alt="Spelare 1">
-                    <h3>28 Mål</h3>
+                    <h3>31 Mål</h3>
                 </div>
                 <div>
                     <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p110979.png" alt="Spelare 2">
-                    <h3>12 Mål</h3>
+                    <h3>16 Mål</h3>
                 </div>
                 <div>
                     <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p194634.png" alt="spelare 3">
-                    <h3>12 Mål</h3>
+                    <h3>13 Mål</h3>
                 </div>
         </div>
         <div class="assist">
             <h2>Assistligan:</h2>
                 <div class="A1">
                     <img class="A1" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p92217.png" alt="Spelare 1">
-                    <h3>7 Assist</h3>
+                    <h3>9 Assist</h3>
                 </div>
                 <div class="A2">
-                    <img class="A2" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p110979.png" alt="Spelare 2">
-                    <h3>6 Assist</h3>
+                    <img class="A2" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p169187.png" alt="Spelare 2">
+                    <h3>9 Assist</h3>
                 </div>
                 <div class="A3">
-                    <img class="A3" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p169187.png" alt="spelare 3">
-                    <h3>6 Assist</h3>
+                    <img class="A3" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p110979.png" alt="spelare 3">
+                    <h3>8 Assist</h3>
                 </div>
         </div>
     </section>

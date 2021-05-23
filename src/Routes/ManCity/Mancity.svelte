@@ -30,30 +30,30 @@
                 <h2>Skytteligan:</h2>
                     <div>
                         <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p59859.png" alt="Spelare 1">
+                        <h3>17 Mål</h3>
+                    </div>
+                    <div>
+                        <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p209244.png" alt="Spelare 2">
                         <h3>16 Mål</h3>
                     </div>
                     <div>
-                        <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p103955.png" alt="Spelare 2">
-                        <h3>13 Mål</h3>
-                    </div>
-                    <div>
-                        <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p205651.png" alt="spelare 3">
-                        <h3>13 Mål</h3>
+                        <img src="https://resources.premierleague.com/premierleague/photos/players/250x250/p103955.png" alt="spelare 3">
+                        <h3>14 Mål</h3>
                     </div>
             </div>
             <div class="assist">
                 <h2>Assistligan:</h2>
                     <div class="A1">
                         <img class="A1" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p61366.png" alt="Spelare 1">
-                        <h3>16 Assist</h3>
+                        <h3>18 Assist</h3>
                     </div>
                     <div class="A2">
-                        <img class="A2" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p103955.png" alt="Spelare 2">
-                        <h3>9 Assist</h3>
+                        <img class="A2" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p209244.png" alt="Spelare 2">
+                        <h3>10 Assist</h3>
                     </div>
                     <div class="A3">
-                        <img class="A3" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p209244.png" alt="spelare 3">
-                        <h3>9 Assist</h3>
+                        <img class="A3" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p103955.png" alt="spelare 3">
+                        <h3>10 Assist</h3>
                     </div>
             </div>
         </section>

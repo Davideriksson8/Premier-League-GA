@@ -90,6 +90,7 @@ import Tabell from "./Tabellen.svelte"
 		<li>17/18: <em>Manchester City</em></li>
 		<li>18/19: <em>Manchester City</em></li>
 		<li>19/20: <em>Liverpool</em></li>
+    <li>20/21: <em>Manchester City</em></li>
 		
 
 	</ul>
