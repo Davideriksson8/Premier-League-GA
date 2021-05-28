@@ -38,7 +38,7 @@
                     </div>
                     <div>
                         <img src="https://bet-bet.net/wp-content/uploads/2020/10/Edinson-Cavani.png" alt="spelare 3">
-                        <h3>16 Mål</h3>
+                        <h3>17 Mål</h3>
                     </div>
             </div>
             <div class="assist">
