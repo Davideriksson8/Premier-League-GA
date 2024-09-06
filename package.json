@@ -18,7 +18,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "firebase": "^8.1.1",
+    "firebase": "^10.2.0",
     "sirv-cli": "^1.0.0",
     "svelte-routing": "^1.5.0",
     "sveltefire": "^0.1.5"
